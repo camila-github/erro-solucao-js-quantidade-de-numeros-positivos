@@ -31,7 +31,7 @@ Exemplos de Entrada  | Exemplos de Saída
 #### Javascript
 
 ```javascript
-//SOLUÇÃO 1
+//SOLUCAO 1
 /*Contador inicia com zero */
 var numPositivos = 0;
 /*A Estrutura de repetição, lerá 6 entrada do gets()*/
@@ -50,7 +50,7 @@ for (var i = 0; i < 7; i++) {
 console.log(contNumPositivos + " valores positivos");
 
 
-//SOLUÇÃO 2 - Resumido 
+//SOLUCAO 2 - Resumido 
 numPositivos = 0; //Contador inicia com zero
 for (i = 0; i < 7; i++) { //A Estrutura de repetição, lerá 6 entradas do gets()
     if ((num = gets())) { //Será verificado se a leitura de entrada, é nulo
