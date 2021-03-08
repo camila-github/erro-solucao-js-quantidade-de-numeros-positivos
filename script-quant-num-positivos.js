@@ -1,4 +1,9 @@
 //SOLUCAO 1
+let numPositivos = 0;
+for (let i = 0; i < 7; i++) if (parseInt(gets()) > 0) numPositivos++; 
+console.log(numPositivos + " valores positivos"); 
+
+// SOLUCAO 2
 var numPositivos = 0;
 for (var i = 0; i < 7; i++) {
     var x = gets();
@@ -10,13 +15,3 @@ for (var i = 0; i < 7; i++) {
     }
 }
 console.log(contNumPositivos + " valores positivos");
-
-
-//SOLUCAO 2 - Resumido 
-numPositivos = 0;
-for (i = 0; i < 7; i++) {
-    if ((num = gets())) {
-        if (parseInt(num) > 0) numPositivos++;
-    }
-}
-console.log(numPositivos + " valores positivos");

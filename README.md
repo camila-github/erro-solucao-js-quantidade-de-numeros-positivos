@@ -1,7 +1,8 @@
-## Treinamento Digital Innovation One - Exercicio - Quantidade de Números Positivos
+## Exercicio - Quantidade de Números Positivos
 
 O exercicio publicado é referente ao treinamento do BOOTCAMP - Desenvolvedor NodeJS - Fundamentos Aritméticos em JavaScript.
 (https://digitalinnovation.one)
+
 
 #### Descrição do Desafio:
 
@@ -27,11 +28,19 @@ Exemplos de Entrada  | Exemplos de Saída
 12 |
 
 
-
 #### Javascript
 
 ```javascript
 //SOLUCAO 1
+/*Contador inicia com zero*/
+let numPositivos = 0;
+/*A Estrutura de repetição, lerá 6 entradas do gets()*/
+/*No if() será verificado se a leitura de entrada, é nulo, e verificará se o valor é maior que zero.*/
+for (let i = 0; i < 7; i++) if (parseInt(gets()) > 0) numPositivos++; 
+/*imprime a quantidade de numeros positivos*/
+console.log(numPositivos + " valores positivos"); 
+
+// SOLUCAO 2
 /*Contador inicia com zero */
 var numPositivos = 0;
 /*A Estrutura de repetição, lerá 6 entrada do gets()*/
@@ -48,14 +57,4 @@ for (var i = 0; i < 7; i++) {
 }
 //imprime a quantidade de numeros positivos
 console.log(contNumPositivos + " valores positivos");
-
-
-//SOLUCAO 2 - Resumido 
-numPositivos = 0; //Contador inicia com zero
-for (i = 0; i < 7; i++) { //A Estrutura de repetição, lerá 6 entradas do gets()
-    if ((num = gets())) { //Será verificado se a leitura de entrada, é nulo
-        if (parseInt(num) > 0) numPositivos++; //Verifica se o valor é maior que zero
-    }
-}
-console.log(numPositivos + " valores positivos"); //imprime a quantidade de numeros positivos
 ```
